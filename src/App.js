@@ -1,21 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://assets-global.website-files.com/657ae60d92ed823479730a3f/65f504cd266c6352ba0f5d00_inhotelio-gold-white-transparent-p-500.webp" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          HOTEL AI ASSISTANTS
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://inhotel.io"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Explore more
         </a>
       </header>
     </div>

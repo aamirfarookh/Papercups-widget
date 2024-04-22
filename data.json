@@ -1,0 +1,52 @@
+{
+    "papers": [
+      {
+        "name": "Paper 1: B.E./B.Tech.",
+        "subjects": ["Mathematics", "Physics", "Chemistry"],
+        "questions_type": "Objective Type - Multiple Choice Questions (MCQs) and Questions for which the answer is a numerical value",
+        "mode_of_exam": "Computer Based Test (CBT)"
+      },
+      {
+        "name": "Paper 2A: B. Arch",
+        "subjects": ["Part-I: Mathematics", "Part-II: Aptitude Test", "Part-III: Drawing Test"],
+        "questions_type": ["Objective Type - Multiple Choice Questions (MCQs)", "Questions to test drawing aptitude"],
+        "mode_of_exam": "Pen and Paper Based (offline)"
+      },
+      {
+        "name": "Paper 2B: B. Planning",
+        "subjects": ["Part-I: Mathematics", "Part-II: Aptitude Test", "Part-III: Planning-Based Questions"],
+        "questions_type": "Objective Type - Multiple Choice Questions (MCQs) and Questions for which the answer is a numerical value",
+        "mode_of_exam": "Computer Based Test (CBT)"
+      }
+    ],
+    "paper1_details": {
+      "subject_wise_distribution": {
+        "Mathematics": {"Section A": 20, "Section B": 10, "Marks": 100},
+        "Physics": {"Section A": 20, "Section B": 10, "Marks": 100},
+        "Chemistry": {"Section A": 20, "Section B": 10, "Marks": 100},
+        "Total": {"Number of Questions": 90, "Marks": 300}
+      },
+      "additional_info": "* Each Subject will have two sections. Section A will be of Multiple-Choice Questions (MCQs) and Section B will contain Questions whose answers are to be filled in as a numerical value. In Section B, candidates have to attempt any 05 (five) questions out of 10. There will be negative marking for both Section A and Section B. For each question in Section B, a candidate has to enter the correct integer value of the answer using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer. For Section B, the answer should be rounded off to the nearest integer."
+    },
+    "marking_scheme": {
+      "MCQs": {
+        "Correct Answer": "+4",
+        "Incorrect Answer/Multiple Answer": "-1",
+        "Unanswered/Marked for Review": "0"
+      },
+      "numerical_value_questions": {
+        "Correct Answer": "+4",
+        "Incorrect Answer": "-1",
+        "Unanswered/Marked for Review": "0"
+      }
+    },
+    "method_of_determining_merit": "Conversion of the raw score in Mathematics, Aptitude Test, Drawing Test, and Total into NTA Scores. Overall merit shall be prepared by merging the NTA Scores of both shifts of all days.",
+    "method_of_resolving_ties": "Tie between candidates obtaining equal Total NTA scores will be resolved based on NTA scores in Mathematics, Aptitude Test, Drawing Test, proportion of attempted incorrect answers and correct answers, age, and application number in ascending order.",
+    "paper1_time_duration": {
+      "Subject": ["Physics, Chemistry, and Mathematics"],
+      "Non-PwD Candidates": "3 hours",
+      "PwD Candidates": "4 hours",
+      "Compensatory time for PwD Candidates": "20 minutes for a one-hour examination"
+    }
+  }
+  

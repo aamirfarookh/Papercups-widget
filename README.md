@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Papercups Chat Widget Responsiveness Enhancement
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project focuses on enhancing the responsiveness of the Papercups chat widget for usage in different viewport sizes, particularly on mobile devices. Below is the documentation outlining the changes made and instructions on how to deploy the improved widget.
 
-## Available Scripts
+## Changes Made
 
-In the project directory, you can run:
+### Widget Component
+- Updated the `Widget` component to dynamically adjust its appearance based on the viewport size.
+- Implemented functionality to detect whether the viewport is on a mobile device or not.
+- Applied custom styles to ensure optimal display on mobile devices, maximizing viewport space.
 
-### `npm start`
+### Responsive Design
+- Utilized custom css styles and viewport-based units to adapt the chat widget's dimensions and layout for various screen sizes.
+- Ensured that the chat widget remains functional and visually appealing across different devices, including smartphones and tablets.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To deploy the improved Papercups chat widget with responsiveness enhancements, follow these steps:
 
-### `npm test`
+1. **Clone the Repository**: Clone the repository containing the project files to your local machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**: Navigate to the project directory and install the required dependencies by running the following command: 
+```
+   npm install
+```
 
-### `npm run build`
+3. **Configuration**: Update the `Widget` component with your Papercups API token and inbox ID. You can find these details in your Papercups dashboard or provide them as environment variables. Ensure that the environment variables `PAPERCUPS_TOKEN` and `PAPERCUPS_INBOX` are set with your Papercups API token and inbox ID, respectively.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Build the Project**: Build the project to generate production-ready assets by running: 
+```
+npm run build
+```
+5. **Deployment**: Deploy the built files to your hosting environment. Ensure that the necessary routes and configurations are set up to serve the widget files.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Demo
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A live demo of the responsive Papercups chat widget can be accessed [here](https://papercups-inhotel.netlify.app/)
